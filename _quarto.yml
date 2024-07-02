@@ -3,24 +3,21 @@ project:
   output-dir: docs
   
 website:
-  title: "My awesome website"
+  title: "ASEAN stats and R"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - projects.qmd
+      - index.qmd
+      - about.qmd
     tools:
-      - icon: twitter
-        href: https://twitter.com/
       - icon: github
         href: https://github.com/jimstankovich/jtr_tutorial
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2024, Jim Stankovich"
+    left: "Last updated 2 July 2024"
 
 format:
   html:
-    theme: cerulean
+    theme: default
     toc: true
 
 editor: source

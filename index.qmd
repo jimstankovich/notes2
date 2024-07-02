@@ -1,19 +1,9 @@
 ---
-title: "About Me"
-about:
-  id: me
-  template: broadside
-  image: img/profile.png
+title: "Projects"
 ---
 
-:::{#me}
+## Introduction to R
+Some [notes](introduction_to_R.qmd) for a 2-3 hour workshop giving an introduction to R
 
-## Goals
-
-## Education
-
-## Experience
-
-:::
-
-Thanks for checking out my web site!
+## Statistics notes
+(nothing here yet)
