@@ -1,0 +1,21 @@
+---
+title: "Websites"
+date: "4 July 2024"
+---
+
+## Statistics
+
+- [MSNI stats tips](https://msni-stats-tips.netlify.app/)
+
+- [Biostatistics Blog](https://blogs.utas.edu.au/biostatistics/). I worked on this blog many years ago with some former colleagues in Hobart. Several of them currently teach a course [Introduction to Biostatistics](https://www.utas.edu.au/courses/chm/units/cam625-introduction-to-biostatistics) at the University of Tasmania.
+
+
+## Quarto
+
+I couldn't have made this website without
+
+- the [template](https://github.com/jtr13/website-template) made by Joyce Robbins, and
+- the notes [Happy Git and GitHub for the useR](https://happygitwithr.com/) written by Jenny Bryan and others.
+
+
+

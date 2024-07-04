@@ -1,7 +1,7 @@
 ---
 title: "Data analysis using R: an introduction"
 author: ""
-date: "30 June 2024"
+date: "4 July 2024"
 format: 
   html:
     toc: true
@@ -35,7 +35,7 @@ em3 = function(x) {
 }
 ```
 
-Things to add, after the meeting on 30 June
+Things to add, as discussed in the meeting on 30 June
 
 -   Some basic stats analyses, e.g. a chi-square test and t-test.
 
@@ -583,7 +583,7 @@ install.packages("ggplot2")
 
 Let's load a small CSV file with some Gapminder data for 10 ASEAN countries. We will use the package `readr` to do this.
 
-I have put the CSV file on a webpage [here](https://github.com/jimstankovich/stats-and-R/blob/main/asean_data.csv).
+I have put the CSV file on a webpage [here](https://github.com/jimstankovich/notes/blob/main/data/asean_data.csv).
 
 There are two ways you can load the data into R. You can either download it onto your computer first (Method 1), or you can load it into R directly from the website (Method 2).
 
@@ -601,7 +601,7 @@ There are two ways you can load the data into R. You can either download it onto
 
 -   A new window appears, giving you some options to control how you open the file. In this case the default settings are fine... you don't need to change anything. So just click "Import" on the bottom right to load the data. Note that the 3 R commands which will be run appear in a box on the bottom right. ![](images/data_loading_options.png)
 
--   These 3 commands run in the Console window on the bottom left. The folder in the second line will be different on your computer (not the same as `~/Documents/Research Methodology in Social Sciences/introduction_to_R/data/`), depending on where you put the file `asean_2022_data.csv`.
+-   These 3 commands run in the Console window on the bottom left. The folder in the second line will be different on your computer (not the same as `"~/Documents/Research Methodology in Social Sciences/introduction_to_R/data/"`), depending on where you put the file `asean_2022_data.csv`.
 
 -   Copy these 3 commands to your .R file so you can run them automatically next time, without having to open windows and click in them. This makes your analysis more "reproducible".
 
@@ -639,12 +639,12 @@ asean_data
 
 ### Method 2: Download the data directly into R from the internet
 
-Starting at the same URL as before (`https://github.com/jimstankovich/stats-and-R/blob/main/asean_data.csv`), click on the word "Raw" on the top right. This takes you take another webpage with the "raw" (unformatted) CSV data. You can use the `read_csv` command to load the data from this webpage:
+Starting at the same URL as before (`https://github.com/jimstankovich/notes/blob/main/data/asean_data.csv`), click on the word "Raw" on the top right. This takes you take another webpage with the "raw" (unformatted) CSV data. You can use the `read_csv` command to load the data from this webpage:
 
 ```{r}
 #| output: false
 library(readr)
-asean_data <- read_csv("https://raw.githubusercontent.com/jimstankovich/stats-and-R/main/asean_data.csv")
+asean_data <- read_csv("https://raw.githubusercontent.com/jimstankovich/notes/main/data/asean_data.csv")
 ```
 
 Method 2 is fine for the small dataset we are looking at here. However, if you are running your R commands many times and working with a large dataset, it is better to download the dataset onto your computer first (Method 1), rather than downloading a large dataset many times.
@@ -949,7 +949,7 @@ ggplot(life_exp_table, aes(x=country, y=le_change)) +
 
 ### Line graphs showing changes in a variable over time
 
-To plot the graphs from now on, you need to download a much bigger CSV file of Gapminder data, called `big_gapminder_dataset.csv`. It is available [here](https://github.com/jimstankovich/stats-and-R/blob/main/big_gapminder_dataset.csv).
+To plot the graphs from now on, you need to download a much bigger CSV file of Gapminder data, called `big_gapminder_dataset.csv`. It is available [here](https://github.com/jimstankovich/notes/blob/main/data/big_gapminder_dataset.csv).
 
 ```{r}
 #| class-output: output
@@ -970,7 +970,7 @@ asean_lifexp_since_1900 <- lifeExp_since_1900 %>%
 other_countries <- lifeExp_since_1900 %>%
   filter(asean == FALSE)
 
-# This palette is recommended for people who are colour-blind
+# This palette was recommended for people who are colour-blind
 # https://stackoverflow.com/questions/9563711/r-color-palettes-for-many-data-classes
 colours1 <- c("#88CCEE", "#CC6677", "#DDCC77", "#117733",
              "#332288", "#AA4499", "#44AA99", "#999933",

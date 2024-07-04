@@ -2,11 +2,22 @@
 title: "About this site"
 ---
 
-I'm planning to put some notes on statistics and R here.
+::: {.grid}
 
-I moved to Bangkok, Thailand in February 2024. Before that I worked as a statistician in Australia. You can see some details in [my ORCID record](https://orcid.org/0000-0001-9344-7749).
+::: {.g-col-6}
 
-Here's [another GitHub page](https://jimstankovich.github.io/translation/) I maintain with some attempts to translate Thai into English. I'm currently enjoying Thai lessons at the [Sumaa Language and Culture Institute](https://www.sumaa.net/).
+I'm planning to put some notes on data, statistics and R here, along with some other stuff.
 
+I moved to Bangkok, Thailand in February 2024. Before that I worked as an applied statistician in Australia. You can see some details in [my ORCID record](https://orcid.org/0000-0001-9344-7749).
+:::
+  
+::: {.g-col-6}
+
+![](images/Bang_Pho_July_2024.jpg)
+[Bang Pho](bang_pho.qmd)
+
+:::
+  
+:::  
 
 

@@ -1,0 +1,11 @@
+---
+title: "Life in Thailand"
+---
+
+- [Bang Pho](bang_pho.qmd)
+- [Missing Hobart Library](hobart_library.qmd): places to sit and work/study in Bangkok
+
+
+
+
+
