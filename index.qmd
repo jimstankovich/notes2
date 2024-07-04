@@ -1,5 +1,7 @@
 ---
 title: "Data, statistics, R"
+date: last-modified
+date-format: "D MMMM, YYYY"
 ---
 
 ## Introduction to R

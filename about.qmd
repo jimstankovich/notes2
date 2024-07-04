@@ -1,5 +1,7 @@
 ---
 title: "About this site"
+date: last-modified
+date-format: "D MMMM, YYYY"
 ---
 
 ::: {.grid}

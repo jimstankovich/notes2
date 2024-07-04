@@ -1,7 +1,8 @@
 ---
 title: "Data analysis using R: an introduction"
 author: ""
-date: "4 July 2024"
+date: last-modified
+date-format: "D MMMM, YYYY"
 format: 
   html:
     toc: true

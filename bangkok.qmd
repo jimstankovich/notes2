@@ -1,8 +1,13 @@
 ---
 title: "Life in Thailand"
+date: last-modified
+date-format: "D MMMM, YYYY"
 ---
 
-- [Bang Pho](bang_pho.qmd)
+- [Bang Pho](bang_pho.qmd): where I live
+
+- [Learning Thai](learning_thai.qmd)
+
 - [Missing Hobart Library](hobart_library.qmd): places to sit and work/study in Bangkok
 
 
