@@ -14,7 +14,7 @@ website:
         href: https://github.com/jimstankovich/notes
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
-    left: "Last updated 8 July 2024"
+    left: "Last updated 9 July 2024"
 
 format:
   html:
