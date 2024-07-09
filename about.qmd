@@ -1,0 +1,29 @@
+---
+title: "About this site"
+date: last-modified
+date-format: "D MMMM, YYYY"
+---
+
+::: {.grid}
+
+::: {.g-col-6}
+
+I'm planning to put some notes on data, statistics and R here, along with a bit of other stuff.
+
+I moved to Bangkok, Thailand in February 2024. Before that I worked as an applied statistician in Australia. You can see some details 
+
+- in my [ORCID record](https://orcid.org/0000-0001-9344-7749),
+- on [Google Scholar](https://scholar.google.com.au/citations?hl=en&user=HdHNmIQAAAAJ),
+- or in my [CV](https://docs.google.com/document/d/1ut5mNkJQnt0JXxcj2XAeC69bOe6bixHMpx1NFZqpkdI/edit?usp=sharing).
+:::
+  
+::: {.g-col-6}
+
+![](images/Bang_Pho_July_2024.jpg)
+[Bang Pho](bang_pho.qmd)
+
+:::
+  
+:::  
+
+

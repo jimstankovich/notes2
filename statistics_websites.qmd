@@ -1,0 +1,26 @@
+---
+title: "Websites"
+date: last-modified
+date-format: "D MMMM, YYYY"
+---
+
+## Statistics
+
+- [MSNI stats tips](https://msni-stats-tips.netlify.app/)
+
+- [Biostatistics Blog](https://blogs.utas.edu.au/biostatistics/). I worked on this blog many years ago with some former colleagues in Hobart. Several of them currently teach a course [Introduction to Biostatistics](https://www.utas.edu.au/courses/chm/units/cam625-introduction-to-biostatistics) at the University of Tasmania.
+
+- [Statistics, Data, Science](https://m-clark.github.io/): Michael Clark's website, particularly his very insightful notes on [mixed models](https://m-clark.github.io/mixed-models-with-R/).
+
+
+## Quarto
+
+I couldn't have made this website without
+
+- the notes [Happy Git and GitHub for the useR](https://happygitwithr.com/) written by Jenny Bryan and others, and
+
+- the [template](https://github.com/jtr13/website-template) made by Joyce Robbins, along with her [video demonstration](https://www.youtube.com/watch?v=YN75YXaLFGM).
+I have to follow this video every time I update the website.  :)
+
+
+
